@@ -16,6 +16,6 @@ public class PropertySubstitutionTest {
     public static Logger logger = LogManager.getLogger(PropertySubstitutionTest.class);
 
     public static void main(String[] args) {
-        logger.info("test{},{}","abc","bcd");
+        logger.info("test {},{}","abc","bcd");
     }
 }

@@ -15,7 +15,9 @@ import org.apache.logging.log4j.core.lookup.StrLookup;
 public class LookupFromApp implements StrLookup{
     @Override
     public String lookup(String key) {
-        return "f:/yhl/logs1/";
+        // use apollo
+        // return ConfigService.getConfig("app").getProperty(key,"");
+        return "d:/abc/logs1/";
     }
 
     @Override
