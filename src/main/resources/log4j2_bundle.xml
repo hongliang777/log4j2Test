@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration packages="com.yhl.log4j2">
+<Configuration>
     <Properties>
-        <Property name="filename">${lk:rootPath}abc.log</Property>
+        <Property name="filename">${bundle:com.yhl.log4j2.AppBundle:rootPath}/abc.log</Property>
     </Properties>
 
     <Appenders>
